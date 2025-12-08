@@ -18,12 +18,11 @@ a = 2
 b = 4
 sum = a+b
 sum1 = a*b
-sum3 = a**b #a^b
+sum3 = a**b #exponent
 sum4 = a % b #reminders
 print(sum , sum1 , sum3 , sum4)
 
 #relational opration
-
 a = 50 
 b = 20
 
