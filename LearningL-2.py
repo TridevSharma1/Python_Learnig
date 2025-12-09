@@ -21,8 +21,8 @@ print(str2.count('a'))
 
 #conditional Statment
 
-a = int(input("First No "))
-b = int(input("Second No "))
+a = float(input("First No "))
+b = float(input("Second No "))
 
 s = (input("Choose Simble "))
 
@@ -44,15 +44,15 @@ elif(s == "%"):
 else:
     print("Unknown Simble")
 
-mark =  int(input("Marks --> ",  )) 
+mark =  float(input("Marks --> ",  )) 
 
 if(mark >= 90):
     Mark = "A"
 elif(mark >= 80 and mark < 90 ):
     mark = "B"
-elif(mark >= 70 and mark <= 80):
+elif(mark >= 70 and mark < 80):
     mark = "C"
-elif(mark >= 69):
+elif(mark >= 40 and mark < 70):
     mark = "D"
 elif(mark < 40):
     mark = "Fail"
