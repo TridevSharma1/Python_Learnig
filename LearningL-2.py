@@ -1,4 +1,4 @@
-#string
+#string operations
 
 str1 = 'Tridev Sharma'
 str2 = "Tridev Sharma"
@@ -52,7 +52,9 @@ elif(mark >= 80 and mark < 90 ):
     mark = "B"
 elif(mark >= 70 and mark <= 80):
     mark = "C"
-elif(mark <= 69):
+elif(mark >= 69):
     mark = "D"
+elif(mark < 40):
+    mark = "Fail"
 
 print(mark)
