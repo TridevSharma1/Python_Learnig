@@ -56,3 +56,8 @@ print(Bio_Data.pop())
 
 print(Collection.union(Bio_Data))
 print(Collection.intersection(Bio_Data))
+
+print(Collection.difference(Bio_Data))
+print(Bio_Data.symmetric_difference(Collection))
+print(Collection.issubset(Bio_Data))
+print(Bio_Data.issuperset(Collection))
