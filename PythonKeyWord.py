@@ -212,3 +212,7 @@ try:
 except ValueError:
     print("Raised error caught")
 
+# global keyword
+# import, from, def, return, if, elif, else, for, while, break, continue,
+# try, except, finally, class, self, pass, lambda, and, or, not, in, is,
+# None, True, False, del, with, as, yield, assert, raise, global
