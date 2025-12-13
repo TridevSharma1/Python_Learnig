@@ -117,3 +117,98 @@ asyncio.run(main())
 # continue, def, del, elif, else, except, finally, for, from, global,
 # if, import, in, is, lambda, nonlocal, not, or, pass, raise, return,
 # try, while, with, yield
+
+# Python Keywords Example Program
+
+# import, from
+import math
+from math import sqrt
+
+# global
+x = 10
+
+# def, return
+def add(a, b):
+    return a + b
+
+# if, elif, else
+def check(n):
+    if n > 0:
+        return "Positive"
+    elif n == 0:
+        return "Zero"
+    else:
+        return "Negative"
+
+print(add(5, 3))
+print(check(-2))
+
+# for, break, continue
+for i in range(5):
+    if i == 2:
+        continue
+    if i == 4:
+        break
+    print("For:", i)
+
+# while
+i = 0
+while i < 3:
+    print("While:", i)
+    i += 1
+
+# try, except, finally
+try:
+    a = 10 / 2
+    print(a)
+except:
+    print("Error")
+finally:
+    print("Done")
+
+# class, self, pass
+class Demo:
+    def __init__(self):
+        self.x = 5
+    def show(self):
+        pass
+
+# lambda
+square = lambda x: x * x
+print(square(4))
+
+# and, or, not
+if True and not False:
+    print("Logical operators")
+
+# in, is
+data = [1, 2, 3]
+if 2 in data:
+    print("In keyword")
+
+a = None
+if a is None:
+    print("Is keyword")
+
+# del
+b = 100
+del b
+
+# with, as
+with open("file.txt", "w") as f:
+    f.write("Python")
+
+# yield
+def gen():
+    yield 1
+    yield 2
+
+# assert
+assert 5 > 2
+
+# raise
+try:
+    raise ValueError("Error raised")
+except ValueError:
+    print("Raised error caught")
+
