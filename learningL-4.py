@@ -9,8 +9,7 @@ Info = {
 Info['name']= 'Tridev'
 Info['Gender'] = 'Male'
 print(Info)
-print(
-Info['name'],Info['Age'])
+print(Info['name'],Info['Age'])
 
 Student = {
     'name' :' Tridev Sharma',
