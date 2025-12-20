@@ -20,3 +20,6 @@ print(name1[-3])
 print(name1[-4])
 print(name1[-5])
 print(name1[-6])
+
+print(name1[0:3])
+print(name1[3:6])
