@@ -23,3 +23,8 @@ print(name1[-6])
 
 print(name1[0:3])
 print(name1[3:6])
+
+name = "Tridev Shrama"
+print(name[0:6:2]) # t i e
+print(name[0:13:3]) # T d  r a
+print(name[::4]) # T e h a
