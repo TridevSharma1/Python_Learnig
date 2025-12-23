@@ -18,5 +18,21 @@ print(nested_list[2][2]) # Output: 6
 sample_list = [10, 20, 30, 40, 50, 60, 70, 80, 90]
 print(sample_list[2:5]) # Output: [30, 40, 50]
 
+# empty list
+empty_list = []
+print(empty_list) # Output: []
+
+# list with different data types
+varied_list = [42, "Hello", 3.14, False, [1, 2, 3]]
+print(varied_list) # Output: [42, "Hello", 3.14, False, [1, 2, 3]]
+
+# using list() constructor
+constructed_list = list((1, 2, 3, 4))   
+print(constructed_list) # Output: [1, 2, 3, 4]
+
+# list with repeated elements
+repeated_list = [7] * 5
+print(repeated_list) # Output: [7, 7, 7, 7, 7]
+
 
 
