@@ -45,3 +45,13 @@ print(squared_list) # Output: [0, 1, 4, 9, 16, 25]
 # with conditional logic
 even_squares = [x**2 for x in range(10) if x % 2 == 0]
 print(even_squares) # Output: [0, 4, 16, 36, 64]
+
+#  append method
+append_list = [1, 2, 3]
+append_list.append(4)
+print(append_list) # Output: [1, 2, 3, 4]
+
+# extend method
+extend_list = [1, 2, 3]
+extend_list.extend([4, 5, 6])
+print(extend_list) # Output: [1, 2, 3, 4, 5, 6]
