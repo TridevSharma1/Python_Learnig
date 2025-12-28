@@ -1,4 +1,3 @@
-
 # artmatic opration
 a = 2
 b = 4
