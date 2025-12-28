@@ -37,4 +37,14 @@ for i in range(3):
 else:
     print("Loop completed")
 
+# looping through a list
+my_list = [10, 20, 30, 40, 50]
+for item in my_list:
+    print("List item:", item)
+# looping through a dictionary
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+for key, value in my_dict.items():
+    print("Key:", key, "Value:", value)
+    
+
     
