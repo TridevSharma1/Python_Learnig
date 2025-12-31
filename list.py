@@ -64,3 +64,8 @@ print(insert_list) # Output: [1, 2, 3, 4, 5]
 remove_list = [1, 2, 3, 4, 5]
 remove_list.remove(3)
 print(remove_list) # Output: [1, 2, 4, 5]
+# pop method
+pop_list = [1, 2, 3, 4, 5]  
+popped_element = pop_list.pop()
+print(popped_element) # Output: 5
+print(pop_list) # Output: [1, 2, 3, 4]
