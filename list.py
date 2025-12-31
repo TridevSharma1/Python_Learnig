@@ -55,3 +55,12 @@ print(append_list) # Output: [1, 2, 3, 4]
 extend_list = [1, 2, 3]
 extend_list.extend([4, 5, 6])
 print(extend_list) # Output: [1, 2, 3, 4, 5, 6]
+
+# insert method
+insert_list = [1, 2, 4, 5]  
+insert_list.insert(2, 3)
+print(insert_list) # Output: [1, 2, 3, 4, 5]
+# remove method
+remove_list = [1, 2, 3, 4, 5]
+remove_list.remove(3)
+print(remove_list) # Output: [1, 2, 4, 5]
