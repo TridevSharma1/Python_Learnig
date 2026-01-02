@@ -69,3 +69,7 @@ pop_list = [1, 2, 3, 4, 5]
 popped_element = pop_list.pop()
 print(popped_element) # Output: 5
 print(pop_list) # Output: [1, 2, 3, 4]
+
+# len function
+length_list = [10, 20, 30, 40]
+print(len(length_list)) # Output: 4
