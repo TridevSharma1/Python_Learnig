@@ -73,3 +73,8 @@ print(pop_list) # Output: [1, 2, 3, 4]
 # len function
 length_list = [10, 20, 30, 40]
 print(len(length_list)) # Output: 4
+
+# sort method
+sort_list = [5, 2, 9, 1, 5, 6]
+sort_list.sort()
+print(sort_list) # Output: [1, 2, 5, 5, 6, 9]
