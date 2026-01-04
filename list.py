@@ -78,3 +78,8 @@ print(len(length_list)) # Output: 4
 sort_list = [5, 2, 9, 1, 5, 6]
 sort_list.sort()
 print(sort_list) # Output: [1, 2, 5, 5, 6, 9]
+
+# reverse method
+reverse_list = [1, 2, 3, 4, 5]  
+reverse_list.reverse()
+print(reverse_list) # Output: [5, 4, 3, 2, 1]
