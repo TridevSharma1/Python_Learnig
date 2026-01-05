@@ -46,5 +46,14 @@ my_dict = {'a': 1, 'b': 2, 'c': 3}
 for key, value in my_dict.items():
     print("Key:", key, "Value:", value)
     
+# using enumerate
+for index, value in enumerate(my_list):
+    print("Index:", index, "Value:", value)
+
+# using zip
+list1 = [1, 2, 3]
+list2 = ['a', 'b', 'c']
+for num, char in zip(list1, list2):
+    print("Number:", num, "Character:", char)
 
     
