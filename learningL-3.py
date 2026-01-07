@@ -12,3 +12,14 @@ movie.sort()
 
 print(movie)
 
+squared = [x**2 for x in range(5)]
+
+print("Squared values:", squared)
+squared_dict = {x: x**2 for x in range(5)}
+squared_dict = {x: x**2 for x in range(5)}
+squared_dict = {x: x**2 for x in range(5)}
+squared_dict = {x: x**2 for x in range(5)}
+squared_dict = {x: x**2 for x in range(5)}
+squared_dict = {x: x**2 for x in range(5)}
+squared_dict = {x: x**2 for x in range(5)}
+
