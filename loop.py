@@ -59,6 +59,7 @@ for num, char in zip(list1, list2):
 # list comprehension with loop
 squared = [x**2 for x in range(5)]
 print("Squared values:", squared)
+
 # dictionary comprehension with loop
 squared_dict = {x: x**2 for x in range(5)}
 print("Squared dictionary:", squared_dict)
