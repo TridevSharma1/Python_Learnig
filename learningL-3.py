@@ -23,3 +23,7 @@ squared_dict = {x: x**2 for x in range(5)}
 squared_dict = {x: x**2 for x in range(5)}
 squared_dict = {x: x**2 for x in range(5)}
 
+print("Squared dictionary:", squared_dict)
+squared_dict = {x: x**2 for x in range(5)}
+print("Squared dictionary:", squared_dict)
+
