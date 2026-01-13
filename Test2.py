@@ -81,6 +81,19 @@ while user_input != password:
     user_input = input("Enter the password: ")
 print("Access granted.")
 
+# login system with user database
+user_db = {"admin": "admin123", "user1": "pass1", "user2": "pass2"}
+username = input("Enter username: ")    
+password = input("Enter password: ")
+squared = [x**2 for x in range(5)]
+while username not in user_db or user_db[username] != password:
+    print("Invalid username or password. Try again.")
+    username = input("Enter username: ")
+    password = input("Enter password: ")
+print("Login successful. Welcome,", username)
+print("Squared numbers:", squared)
+squared_dict = {x: x**2 for x in range(5)}
+print("Squared dictionary:", squared_dict)
 
 
     
