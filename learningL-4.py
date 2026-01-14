@@ -60,3 +60,8 @@ print(Collection.difference(Bio_Data))
 print(Bio_Data.symmetric_difference(Collection))
 print(Collection.issubset(Bio_Data))
 print(Bio_Data.issuperset(Collection))
+
+# tittle case
+text = "hello world! welcome to python programming."
+titled_text = text.title()
+print(titled_text)
