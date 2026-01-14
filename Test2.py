@@ -95,8 +95,21 @@ print("Squared numbers:", squared)
 squared_dict = {x: x**2 for x in range(5)}
 print("Squared dictionary:", squared_dict)
 
-
-    
-
-        
+# signup system with user database
+user_db = {}    
+username = input("Choose a username: ")
+while username in user_db:
+    print("Username already taken. Please choose another one.")
+    username = input("Choose a username: ")
+password = input("Choose a password: ")
+user_db[username] = password
+print("Signup successful. You can now log in.")
+username = input("Enter username: ")
+password = input("Enter password: ")
+while username not in user_db or user_db[username] != password:
+    print("Invalid username or password. Try again.")
+    username = input("Enter username: ")
+    password = input("Enter password: ")
+print("Login successful. Welcome,", username)
+print("User Database:", user_db)
 
