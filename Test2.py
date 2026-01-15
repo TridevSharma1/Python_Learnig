@@ -113,3 +113,32 @@ while username not in user_db or user_db[username] != password:
 print("Login successful. Welcome,", username)
 print("User Database:", user_db)
 
+# dictionaries and sets
+Info = {
+    'name' : 'Tridev Sharma',
+    'Age' : 17,
+    'Marks' : [20,30,20,19,30],
+    'percent' : 98.9,
+    'pass' : True
+}
+Info['name']= 'Tridev'
+Info['Gender'] = 'Male'
+print(Info)
+print(Info['name'],Info['Age'])
+Student = {
+    'name' :' Tridev Sharma',
+    "subject" :{
+    'Geo' :  30,
+    'Eco' : 20,
+    'Hindi' : 20
+ }
+}
+print(Student)
+print(Info.keys())
+print(Info.values())
+print(Info.items())
+print(Info.get('name'))
+Info.update({"Gender" : "MAle"})
+print(Info) 
+
+
