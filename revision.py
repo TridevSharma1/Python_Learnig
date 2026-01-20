@@ -51,23 +51,26 @@
 # increment => i += 2
 
 # break , continue , pass
-for i in range(1,11):
-    if i == 5:
-        break
-    print(i)
+
+# for i in range(1,11):
+#     if i == 5:
+#         break
+#     print(i)
 # 1 2 3 4
-for i in range(1,11):
-    if i == 5:
-        continue
-    print(i)
+
+# for i in range(1,11):
+#     if i == 5:
+#         continue
+#     print(i)
 # 1 2 3 4 6 7 8 9 10
-for i in range(1,11):
-    if i == 5:
-        pass
-    print(i)
+
+# for i in range(1,11):
+#     if i == 5:
+#         pass
+#     print(i)
 # 1 2 3 4 5 6 7 8 9 10
 
-
+# 
 
 
 
