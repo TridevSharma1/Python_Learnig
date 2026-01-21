@@ -63,3 +63,8 @@ print("Squared values:", squared)
 # dictionary comprehension with loop
 squared_dict = {x: x**2 for x in range(5)}
 print("Squared dictionary:", squared_dict)
+
+# for loop with list slicing
+my_list1 = [100, 200, 300, 400, 500, 600]
+for item in my_list1[1:4]:
+    print("Sliced item:", item)
