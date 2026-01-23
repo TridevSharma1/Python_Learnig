@@ -68,3 +68,7 @@ print("Squared dictionary:", squared_dict)
 my_list1 = [100, 200, 300, 400, 500, 600]
 for item in my_list1[1:4]:
     print("Sliced item:", item)
+
+mylist2 = [1, 2, 3, 4, 5, 6]
+for i in mylist2:
+                   print("Item from mylist1:", i)
