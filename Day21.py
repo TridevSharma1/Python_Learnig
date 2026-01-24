@@ -52,3 +52,13 @@ tuple = (10, 20, 30, 40)
 for i in tuple:
     print(i)
 
+# distonary
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+for key in my_dict:
+    print(f"Key: {key}, Value: {my_dict[key]}")
+for value in my_dict.values():
+    print(f"Value: {value}")
+for key, value in my_dict.items():
+    print(f"Key: {key}, Value: {value}")
+    
+
