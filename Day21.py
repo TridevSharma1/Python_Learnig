@@ -61,4 +61,50 @@ for value in my_dict.values():
 for key, value in my_dict.items():
     print(f"Key: {key}, Value: {value}")
     
+# 24-01-2026
+
+# set intersection and union and copy
+
+set1 = {1, 2, 3, 4,5}
+set2 = {4, 5, 6, 7,8}
+
+print("Union:", set1.union(set2))
+print("Intersection:", set1.intersection(set2))
+
+set3 = set1.copy()
+print("Set3", set3)
+
+
+# disctionary pop, popitem, clear
+
+Info = {
+    'name' : 'Tridev Sharma',
+    'Age' : 17,
+    'Marks' : [20,30,20,19,30],
+    'percent' : 98.9,
+    'pass' : True
+}
+
+Info.pop('Age')
+print("pop",Info)
+
+Info2 = {
+    'name' : 'Tridev Sharma',
+    'Age' : 17,
+    'Marks' : [20,30,20,19,30],
+    'percent' : 98.9,
+    'pass' : True
+}
+Info2.popitem()
+print("Popitem",Info2)
+
+Info3 = {
+    'name' : 'Tridev Sharma',
+    'Age' : 17,
+    'Marks' : [20,30,20,19,30],
+    'percent' : 98.9,
+    'pass' : True
+}
+Info3.clear()
+print("Clear",Info3)
 
