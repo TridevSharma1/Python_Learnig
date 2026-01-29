@@ -1,6 +1,6 @@
 Info = {
     'name' : 'Tridev Sharma',
-    'Age' : 17,
+    'Age' : 18,
     'Marks' : [20,30,20,19,30],
     'percent' : 98.9,
     'pass' : True
@@ -53,7 +53,7 @@ print(Bio_Data.pop())
 
 #set union
 
-print(Collection.union(Bio_Data))
+print("union",Collection.union(Bio_Data))
 print(Collection.intersection(Bio_Data))
 
 print(Collection.difference(Bio_Data))
