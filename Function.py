@@ -65,5 +65,61 @@ c = int(input("Enter third no : "))
 sum_and_subtract(a,b,c)
 # ------------------------------------------------------
 
+# 29:01:2026
+
+# function to calculate area of rectangle
+def area_of_rectangle(length, breadth):
+    return length * breadth
+length = float(input("Enter length of rectangle: "))
+breadth = float(input("Enter breadth of rectangle: "))
+area = area_of_rectangle(length, breadth)
+print("Area of rectangle:", area)
+
+# function to make a simple calculator
+def calculator(num1, num2, op):
+    if op == 'add':
+        return num1 + num2
+    elif op == 'subtract':
+        return num1 - num2
+    elif op == 'multiply':
+        return num1 * num2
+    elif op == 'divide':
+        if num2 != 0:
+            return num1 / num2
+        else:
+            return "Error! Division by zero."
+    else:
+        return "Invalid op."
+
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+op = input("Enter what you want to do (add, subtract, multiply, divide): ")
+result = calculator(num1, num2, op)
+print("Result:", result)
+
+# function to enter name and age
+def enter_name_age():
+    name = input("Enter your name: ")
+    age = int(input("Enter your age: "))
+    print("Name:", name, "Age:", age)
+enter_name_age()
+
+# function to get details and print
+def get_details():
+    name = input("Enter your name: ")
+    age = int(input("Enter your age: "))
+    city = input("Enter your city: ")
+    print("Name: ",name," Age: ",age," City:", city)
+get_details()
+
+# function to check voter eligibility
+def check(age):
+    if age >= 18:
+        return "You are eligible to vote."
+    else:
+        return "You are not eligible to vote."
+age = int(input("Enter your age: "))
+eligibility = check(age)
+print(eligibility)
 
 
