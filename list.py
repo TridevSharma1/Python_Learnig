@@ -83,3 +83,23 @@ print(sort_list) # Output: [1, 2, 5, 5, 6, 9]
 reverse_list = [1, 2, 3, 4, 5]  
 reverse_list.reverse()
 print(reverse_list) # Output: [5, 4, 3, 2, 1]
+
+# oop with lists
+class MyList:
+    def __init__(self, initial_list=None):
+        self.data = initial_list if initial_list is not None else []
+
+    def add(self, item):
+        self.data.append(item)
+
+    def remove(self, item):
+        if item in self.data:
+            self.data.remove(item)
+
+    def get_list(self):
+        return self.data
+my_list = MyList([1, 2, 3])
+my_list.add(4)
+print(my_list.get_list()) # Output: [1, 2, 3, 4]
+my_list.remove(2)
+print(my_list.get_list()) # Output: [1, 3, 4]
