@@ -40,4 +40,20 @@ class User_4:
 user4 = User_4("Tridev Sharma", 18, "BCA Ai & Ml")
 user4.user_info()
 
+# Encapsulation
+class User_5:
+    def __init__(self, name, age, course):
+        self.__name = name
+        self.__age = age
+        self.__course = course
+
+    def user_info(self):
+        print("Name :", self.__name)
+        print("Age  :", self.__age)
+        print("Course  :", self.__course)
+user5 = User_5("Tridev Sharma", 18, "BCA Ai & Ml")
+user5.user_info()
+print(user5.__name) # AttributeError: 'User_5' object has no attribute '__name'
+
+
 
