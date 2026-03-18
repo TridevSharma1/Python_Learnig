@@ -55,5 +55,27 @@ user5 = User_5("Tridev Sharma", 18, "BCA Ai & Ml")
 user5.user_info()
 print(user5.__name) # AttributeError: 'User_5' object has no attribute '__name'
 
+# Inheritance
+class User_6:
+    def __init__(self, name, age, course):
+        self.name = name
+        self.age = age
+        self.course = course
+
+    def user_info(self):
+        print("Name :", self.name)
+        print("Age  :", self.age)
+        print("Course  :", self.course)
+class Student(User_6):
+    def __init__(self, name, age, course, roll_no):
+        super().__init__(name, age, course)
+        self.roll_no = roll_no
+
+    def student_info(self):
+        print("Roll No :", self.roll_no)
+student = Student("Tridev Sharma", 18, "BCA Ai & Ml", 101)
+student.user_info()
+student.student_info()
+
 
 
