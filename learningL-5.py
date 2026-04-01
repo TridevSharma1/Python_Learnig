@@ -49,3 +49,14 @@ for s in range(1,11):
     if(s == 5):
         continue
     print("Continue Example :", s)  
+
+
+# password checking two time by confirming password
+password = input('Enter Password --> ') 
+confirm_password = input('Confirm Password --> ')
+while password != confirm_password:
+    print('Password Not Matched Try Again')
+    password = input('Enter Password --> ') 
+    confirm_password = input('Confirm Password --> ')
+print('Password Matched Successfully')
+
