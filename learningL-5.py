@@ -60,3 +60,14 @@ while password != confirm_password:
     confirm_password = input('Confirm Password --> ')
 print('Password Matched Successfully')
 
+# pasword and username checking
+username = input('Enter Username --> ')
+password = input('Enter Password --> ')
+while username != 'Tridev' or password != 'Sharma':
+    print('Invalid Username or Password Try Again')
+    username = input('Enter Username --> ')
+    password = input('Enter Password --> ')
+print('Login Successfully')
+
+
+
