@@ -34,3 +34,14 @@ while True:
     if again.lower() != "yes":
         print("Thanks for using calculator!")
         break
+
+# This is a simple calculator program in Python that allows the user to perform basic arithmetic operations (addition, subtraction, multiplication, and division) on two numbers. The program continues to run until the user decides to exit by typing "no".
+# added a new file named "Calculator.py" with the above code.
+
+a = 10
+b = 5
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+
