@@ -45,3 +45,5 @@ print("Subtraction:", a - b)
 print("Multiplication:", a * b)
 print("Division:", a / b)
 
+# This code snippet demonstrates basic arithmetic operations using two variables, `a` and `b`. It performs addition, subtraction, multiplication, and division, and prints the results to the console.
+
