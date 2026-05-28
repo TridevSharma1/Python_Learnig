@@ -141,4 +141,11 @@ print(Info.get('name'))
 Info.update({"Gender" : "MAle"})
 print(Info) 
 
+# Controler Statements
+a = 10
+if a > 0:
+    print("a is positive")
+else:
+    print("a is non-positive")
 
+    
