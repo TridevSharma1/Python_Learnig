@@ -118,21 +118,37 @@ asyncio.run(main())
 # if, import, in, is, lambda, nonlocal, not, or, pass, raise, return,
 # try, while, with, yield
 
-# Python Keywords Example Program
+# Python Keywords Demonstration Program
 
-# import, from
 import math
 from math import sqrt
 
-# global
+# Constants
+True_value = True
+False_value = False
+none_value = None
+
+# Global & nonlocal
 x = 10
 
-# def, return
-def add(a, b):
-    return a + b
+def outer():
+    y = 5
+    def inner():
+        nonlocal y
+        y += 1
+        return y
+    return inner()
 
-# if, elif, else
-def check(n):
+# Class, pass, self
+class Demo:
+    def __init__(self, value):
+        self.value = value
+
+    def show(self):
+        pass
+
+# If, elif, else
+def check_number(n):
     if n > 0:
         return "Positive"
     elif n == 0:
@@ -140,63 +156,81 @@ def check(n):
     else:
         return "Negative"
 
-print(add(5, 3))
-print(check(-2))
-
-# for, break, continue
+# For, while, break, continue
 for i in range(5):
     if i == 2:
         continue
     if i == 4:
         break
-    print("For:", i)
+    print("For loop:", i)
 
-# while
 i = 0
 while i < 3:
-    print("While:", i)
+    print("While loop:", i)
     i += 1
 
-# try, except, finally
+# Try, except, finally, raise
 try:
     a = 10 / 2
-    print(a)
-except:
-    print("Error")
+    if a == 5:
+        raise ValueError("Custom Error")
+except ValueError as e:
+    print("Exception:", e)
 finally:
-    print("Done")
+    print("Finally block executed")
 
-# class, self, pass
-class Demo:
-    def __init__(self):
-        self.x = 5
-    def show(self):
-        pass
+# With, as
+with open("sample.txt", "w") as f:
+    f.write("Hello Python")
 
-# lambda
+# Lambda
 square = lambda x: x * x
-print(square(4))
+print("Lambda:", square(4))
 
-# and, or, not
-if True and not False:
-    print("Logical operators")
+# Return, yield
+def generator():
+    yield 1
+    yield 2
 
-# in, is
-data = [1, 2, 3]
-if 2 in data:
-    print("In keyword")
+# Assert
+assert 5 > 3, "Assertion Failed"
 
-a = None
-if a is None:
-    print("Is keyword")
+# Logical operators: and, or, not
+if True_value and not False_value or False_value:
+    print("Logical operators used")
 
-# del
-b = 100
-del b
+# In, is
+list_data = [1, 2, 3]
+if 2 in list_data:
+    print("in keyword used")
 
-# with, as
-with open("file.txt", "w") as f:
-    f.write("Python")
+if none_value is None:
+    print("is keyword used")
+
+# Del
+temp = 100
+del temp
+
+# Global usage
+def change_global():
+    global x
+    x += 5
+
+change_global()
+print("Global x:", x)
+
+# Async, await (basic example)
+import asyncio
+
+async def async_func():
+    await asyncio.sleep(1)
+    return "Async Done"
+
+async def main():
+    result = await async_func()
+    print(result)
+
+asyncio.run(main())
 
 # yield
 def gen():
