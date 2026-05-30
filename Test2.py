@@ -148,4 +148,12 @@ if a > 0:
 else:
     print("a is non-positive")
 
-# 
+# Sun and Moon
+time = input("Enter time (day/night): ")
+if time == "day":
+    print("The sun is shining.")
+elif time == "night":
+    print("The moon is visible.")
+else:
+    print("Invalid input. Please enter 'day' or 'night'.")
+
