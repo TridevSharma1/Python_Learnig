@@ -170,3 +170,19 @@ elif score >= 60:
 else:
     print("Grade: F")
 
+# library system
+books = {
+    "The Great Gatsby": {"author": "F. Scott Fitzgerald", "available": True},
+    "To Kill a Mockingbird": {"author": "Harper Lee", "available": True},
+    "1984": {"author": "George Orwell", "available": True}
+}
+book_name = input("Enter the name of the book you want to borrow: ")
+if book_name in books:
+    if books[book_name]["available"]:
+        print(f"You have borrowed '{book_name}' by {books[book_name]['author']}.")
+        books[book_name]["available"] = False
+    else:
+        print(f"Sorry, '{book_name}' is currently unavailable.")
+else:
+    print("Sorry, we don't have that book in our library.")
+
