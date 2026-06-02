@@ -186,3 +186,12 @@ if book_name in books:
 else:
     print("Sorry, we don't have that book in our library.")
 
+# fabonaci series
+n = int(input("Enter the number of terms in the Fibonacci series: "))
+a, b = 0, 1
+print("Fibonacci series:")
+for _ in range(n):
+    print(a, end=' ')
+    a, b = b, a + b
+    
+   
