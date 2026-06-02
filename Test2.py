@@ -193,5 +193,10 @@ print("Fibonacci series:")
 for _ in range(n):
     print(a, end=' ')
     a, b = b, a + b
-    
+
+# converting temperature
+temp_c = float(input("Enter temperature in Celsius: "))
+temp_f = (temp_c * 9/5) + 32
+print(f"{temp_c}°C is equal to {temp_f}°F.")
+
    
