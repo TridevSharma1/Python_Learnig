@@ -199,4 +199,19 @@ temp_c = float(input("Enter temperature in Celsius: "))
 temp_f = (temp_c * 9/5) + 32
 print(f"{temp_c}°C is equal to {temp_f}°F.")
 
+
+# lambda function for square
+square = lambda x: x**2
+num = float(input("Enter a number to find its square: "))
+print(f"The square of {num} is {square(num)}.")
+
+# recursive function for factorial
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
+num = int(input("Enter a number to find its factorial: "))
+print(f"The factorial of {num} is {factorial(num)}.")
+
    
