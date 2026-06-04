@@ -215,3 +215,23 @@ num = int(input("Enter a number to find its factorial: "))
 print(f"The factorial of {num} is {factorial(num)}.")
 
    
+# voting system
+age = int(input("Enter your age: "))
+if age >= 18:
+    print("You are eligible to vote.")
+else:
+    print("You are not eligible to vote yet.")
+
+# voting for party
+age = int(input("Enter your age: "))
+if age >= 18:
+    print("You are eligible to vote.")
+    party = input("Which party do you want to vote for? (Democrat/Republican/Other): ")
+    if party in ["Democrat", "Republican", "Other"]:
+        print(f"You have voted for the {party} party.")
+    else:
+        print("Invalid party choice.")
+else:
+    print("You are not eligible to vote yet.")
+
+
