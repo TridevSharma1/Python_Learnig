@@ -234,4 +234,13 @@ if age >= 18:
 else:
     print("You are not eligible to vote yet.")
 
+# scheduling system
+day = input("Enter the day of the week: ")
+if day in ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]:
+    print("You have work/school today.")
+elif day in ["Saturday", "Sunday"]:
+    print("You have a day off today.")
+else:
+    print("Invalid day of the week.")
+
 
