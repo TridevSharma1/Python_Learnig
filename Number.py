@@ -18,3 +18,8 @@ while True:
     else:
         print(f"🎉 Congratulations! You guessed the number in {attempts} attempts.")
         break
+
+# This code implements a simple number guessing game where the computer selects a random number between 1 and 100, and the user tries to guess it. The program provides feedback on whether the user's guess is too low, too high, or correct, and keeps track of the number of attempts.
+# You can run this code in a Python environment to play the game. Enjoy!
+# Feel free to modify the code to add more features, such as a scoring system or a limit on the number of attempts!
+# Happy coding! 😊
