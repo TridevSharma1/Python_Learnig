@@ -244,3 +244,19 @@ else:
     print("Invalid day of the week.")
 
 
+# map scheduling system
+schedule = {
+    "Monday": "Work",
+    "Tuesday": "Work",
+    "Wednesday": "Work",
+    "Thursday": "Work",
+    "Friday": "Work",
+    "Saturday": "Day off",
+    "Sunday": "Day off"
+}
+day = input("Enter the day of the week: ")
+if day in schedule:
+    print(f"On {day}, you have: {schedule[day]}.")
+else:
+    print("Invalid day of the week.")
+
