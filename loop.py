@@ -72,3 +72,17 @@ for item in my_list1[1:4]:
 mylist2 = [1, 2, 3, 4, 5, 6]
 for i in mylist2:
                    print("Item from mylist1:", i)
+
+# infinite loop with while
+while True:
+    print("This is an infinite loop. Press Ctrl+C to stop.")
+    break  # Remove this line to make it truly infinite
+
+# loop with else and break
+for i in range(5):
+    if i == 3:
+        print("Breaking at:", i)
+        break
+else:
+    print("Loop completed without break")
+
