@@ -86,3 +86,9 @@ for i in range(5):
 else:
     print("Loop completed without break")
 
+# loop with else and no break
+for i in range(5):
+    print("Looping:", i)
+else:
+    print("Loop completed without break")
+
