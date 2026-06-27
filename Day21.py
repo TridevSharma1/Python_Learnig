@@ -108,3 +108,10 @@ Info3 = {
 Info3.clear()
 print("Clear",Info3)
 
+# calculate the sum of all numbers in a list using a for loop
+numbers = [1, 2, 3, 4, 5]
+num_sum = 0
+for num in numbers:
+    num_sum += num
+print("Sum:", num_sum)  
+
