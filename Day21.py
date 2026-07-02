@@ -115,3 +115,11 @@ for num in numbers:
     num_sum += num
 print("Sum:", num_sum)  
 
+# calculate the area of a polygon using for loop
+vertices = [(0, 0), (4, 0), (4, 3), (0, 3)]  # Example rectangle vertices
+area = 0
+for i in range(len(vertices)):
+    x1, y1 = vertices[i]
+    x2, y2 = vertices[(i + 1) % len(vertices)]  # Wrap around to the first vertex
+    area += (x1 * y2) - (x2 * y1)
+print("Area:", abs(area) / 2)
